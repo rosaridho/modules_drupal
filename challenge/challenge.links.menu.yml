@@ -1,0 +1,6 @@
+challenge.admin:
+  title: 'Challenge module settings'
+  description: 'example of how to make a registration form for challenge'
+  parent: system.admin_config_development
+  route_name: challenge.content
+  weight: 100

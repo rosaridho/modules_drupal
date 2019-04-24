@@ -1,0 +1,6 @@
+name: mentee
+description: Creates a form to register the mentee
+package: Betelgeuse
+type: module
+core: 8.x
+version: 1.0

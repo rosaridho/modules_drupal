@@ -1,0 +1,6 @@
+director.admin:
+  title: 'Director module settings'
+  description: 'example of how to make a registration form for the director'
+  parent: system.admin_config_development
+  route_name: director.content
+  weight: 100

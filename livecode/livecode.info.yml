@@ -1,0 +1,6 @@
+name: livecode
+description: Creates a form to register the livecode
+package: Betelgeuse
+type: module
+core: 8.x
+version: 1.0

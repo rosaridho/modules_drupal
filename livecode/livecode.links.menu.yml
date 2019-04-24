@@ -1,0 +1,6 @@
+livecode.admin:
+  title: 'livecode module settings'
+  description: 'example of how to make a registration form for livecode'
+  parent: system.admin_config_development
+  route_name: livecode.content
+  weight: 100

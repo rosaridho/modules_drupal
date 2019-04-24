@@ -1,0 +1,6 @@
+mentee.admin:
+  title: 'Mentee module settings'
+  description: 'example of how to make a registration form for mentee'
+  parent: system.admin_config_development
+  route_name: mentee.content
+  weight: 100

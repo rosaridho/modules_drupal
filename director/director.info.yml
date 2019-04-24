@@ -1,0 +1,5 @@
+name: director
+description: Creates a form to register the directors
+package: Betelgeuse
+type: module
+core: 8.x

@@ -1,0 +1,9 @@
+subject.content:
+  path: '/admin/subject'
+  defaults:
+    _controller: '\Drupal\subject\Controller\HelloController::content'
+    _title: 'Subject Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true

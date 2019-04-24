@@ -1,0 +1,9 @@
+challenge.content:
+  path: '/admin/challenge'
+  defaults:
+    _controller: '\Drupal\challenge\Controller\HelloController::content'
+    _title: 'Challenge Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true

@@ -1,0 +1,9 @@
+director.content:
+  path: '/admin/director'
+  defaults:
+    _controller: '\Drupal\director\Controller\HelloController::content'
+    _title: 'Director Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true

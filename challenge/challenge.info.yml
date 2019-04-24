@@ -1,0 +1,6 @@
+name: challenge
+description: Creates a form to register the challenge
+package: Betelgeuse
+type: module
+core: 8.x
+version: 1.0

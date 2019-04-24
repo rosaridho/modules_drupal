@@ -1,0 +1,6 @@
+name: subject
+description: Creates a form to register the subjects
+package: Betelgeuse
+type: module
+core: 8.x
+version: 1.0

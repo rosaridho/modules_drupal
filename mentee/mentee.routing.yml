@@ -1,0 +1,9 @@
+mentee.content:
+  path: '/admin/mentee'
+  defaults:
+    _controller: '\Drupal\mentee\Controller\HelloController::content'
+    _title: 'Mentee Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true

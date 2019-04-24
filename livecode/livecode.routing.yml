@@ -1,0 +1,9 @@
+livecode.content:
+  path: '/admin/livecode'
+  defaults:
+    _controller: '\Drupal\livecode\Controller\HelloController::content'
+    _title: 'livecode Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true

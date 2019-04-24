@@ -1,0 +1,9 @@
+mentor.content:
+  path: '/admin/mentor'
+  defaults:
+    _controller: '\Drupal\mentor\Controller\HelloController::content'
+    _title: 'Mentor Model'
+  requirements:
+    _permission: 'access content'
+  options:
+    _admin_route: true
