@@ -1,0 +1,35 @@
+entity.mentor_d_c.add_form:
+  route_name: entity.mentor_d_c.add_form
+  title: 'Add Mentor dc'
+  appears_on:
+    - entity.mentor_d_c.collection
+entity.mentee_d_c.add_form:
+  route_name: entity.mentee_d_c.add_form
+  title: 'Add Mentee dc'
+  appears_on:
+    - entity.mentee_d_c.collection
+entity.subject.add_form:
+  route_name: entity.subject.add_form
+  title: 'Add Subject'
+  appears_on:
+    - entity.subject.collection
+entity.subject_d_c.add_form:
+  route_name: entity.subject_d_c.add_form
+  title: 'Add Subject dc'
+  appears_on:
+    - entity.subject_d_c.collection
+entity.challenge_d_c.add_form:
+  route_name: entity.challenge_d_c.add_form
+  title: 'Add Challenge dc'
+  appears_on:
+    - entity.challenge_d_c.collection
+entity.livecode_d_c.add_form:
+  route_name: entity.livecode_d_c.add_form
+  title: 'Add Livecode dc'
+  appears_on:
+    - entity.livecode_d_c.collection
+entity.director_d_c.add_form:
+  route_name: entity.director_d_c.add_form
+  title: 'Add Director dc'
+  appears_on:
+    - entity.director_d_c.collection

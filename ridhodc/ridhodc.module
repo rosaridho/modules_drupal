@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains ridhodc.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ridhodc_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ridhodc module.
+    case 'help.page.ridhodc':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My first DC Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ridhodc_theme() {
+  return [
+    'ridhodc' => [
+      'render element' => 'children',
+    ],
+  ];
+}
