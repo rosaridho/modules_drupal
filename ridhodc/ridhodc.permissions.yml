@@ -208,3 +208,63 @@ revert all director dc revisions:
 delete all director dc revisions:
   title: 'Delete all revisions'
   description: 'Role requires permission to <em>view Director dc revisions</em> and <em>delete rights</em> for director dc entities in question or <em>administer director dc entities</em>.'
+add mentee dc entities:
+  title: 'Create new Mentee dc entities'
+
+administer mentee dc entities:
+  title: 'Administer Mentee dc entities'
+  description: 'Allow to access the administration form to configure Mentee dc entities.'
+  restrict access: true
+
+delete mentee dc entities:
+  title: 'Delete Mentee dc entities'
+
+edit mentee dc entities:
+  title: 'Edit Mentee dc entities'
+
+view published mentee dc entities:
+  title: 'View published Mentee dc entities'
+
+view unpublished mentee dc entities:
+  title: 'View unpublished Mentee dc entities'
+
+view all mentee dc revisions:
+  title: 'View all Mentee dc revisions'
+
+revert all mentee dc revisions:
+  title: 'Revert all Mentee dc revisions'
+  description: 'Role requires permission <em>view Mentee dc revisions</em> and <em>edit rights</em> for mentee dc entities in question or <em>administer mentee dc entities</em>.'
+
+delete all mentee dc revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Mentee dc revisions</em> and <em>delete rights</em> for mentee dc entities in question or <em>administer mentee dc entities</em>.'
+add mentor dc entities:
+  title: 'Create new Mentor dc entities'
+
+administer mentor dc entities:
+  title: 'Administer Mentor dc entities'
+  description: 'Allow to access the administration form to configure Mentor dc entities.'
+  restrict access: true
+
+delete mentor dc entities:
+  title: 'Delete Mentor dc entities'
+
+edit mentor dc entities:
+  title: 'Edit Mentor dc entities'
+
+view published mentor dc entities:
+  title: 'View published Mentor dc entities'
+
+view unpublished mentor dc entities:
+  title: 'View unpublished Mentor dc entities'
+
+view all mentor dc revisions:
+  title: 'View all Mentor dc revisions'
+
+revert all mentor dc revisions:
+  title: 'Revert all Mentor dc revisions'
+  description: 'Role requires permission <em>view Mentor dc revisions</em> and <em>edit rights</em> for mentor dc entities in question or <em>administer mentor dc entities</em>.'
+
+delete all mentor dc revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Mentor dc revisions</em> and <em>delete rights</em> for mentor dc entities in question or <em>administer mentor dc entities</em>.'

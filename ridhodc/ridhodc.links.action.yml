@@ -33,3 +33,13 @@ entity.director_d_c.add_form:
   title: 'Add Director dc'
   appears_on:
     - entity.director_d_c.collection
+entity.mentee_d_c.add_form:
+  route_name: entity.mentee_d_c.add_form
+  title: 'Add Mentee dc'
+  appears_on:
+    - entity.mentee_d_c.collection
+entity.mentor_d_c.add_form:
+  route_name: entity.mentor_d_c.add_form
+  title: 'Add Mentor dc'
+  appears_on:
+    - entity.mentor_d_c.collection

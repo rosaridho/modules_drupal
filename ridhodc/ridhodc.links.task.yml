@@ -187,3 +187,57 @@ entity.director_d_c.delete_form:
   title: Delete
   weight: 10
 
+# Mentee dc routing definition
+mentee_d_c.settings_tab:
+  route_name: mentee_d_c.settings
+  title: 'Settings'
+  base_route: mentee_d_c.settings
+
+entity.mentee_d_c.canonical:
+  route_name: entity.mentee_d_c.canonical
+  base_route: entity.mentee_d_c.canonical
+  title: 'View'
+
+entity.mentee_d_c.edit_form:
+  route_name: entity.mentee_d_c.edit_form
+  base_route: entity.mentee_d_c.canonical
+  title: 'Edit'
+
+entity.mentee_d_c.version_history:
+  route_name: entity.mentee_d_c.version_history
+  base_route: entity.mentee_d_c.canonical
+  title: 'Revisions'
+
+entity.mentee_d_c.delete_form:
+  route_name:  entity.mentee_d_c.delete_form
+  base_route:  entity.mentee_d_c.canonical
+  title: Delete
+  weight: 10
+
+# Mentor dc routing definition
+mentor_d_c.settings_tab:
+  route_name: mentor_d_c.settings
+  title: 'Settings'
+  base_route: mentor_d_c.settings
+
+entity.mentor_d_c.canonical:
+  route_name: entity.mentor_d_c.canonical
+  base_route: entity.mentor_d_c.canonical
+  title: 'View'
+
+entity.mentor_d_c.edit_form:
+  route_name: entity.mentor_d_c.edit_form
+  base_route: entity.mentor_d_c.canonical
+  title: 'Edit'
+
+entity.mentor_d_c.version_history:
+  route_name: entity.mentor_d_c.version_history
+  base_route: entity.mentor_d_c.canonical
+  title: 'Revisions'
+
+entity.mentor_d_c.delete_form:
+  route_name:  entity.mentor_d_c.delete_form
+  base_route:  entity.mentor_d_c.canonical
+  title: Delete
+  weight: 10
+

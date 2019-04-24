@@ -96,3 +96,31 @@ director_d_c.admin.structure.settings:
   description: 'Configure Director dc entities'
   route_name: director_d_c.settings
   parent: system.admin_structure
+
+# Mentee dc menu items definition
+entity.mentee_d_c.collection:
+  title: 'Mentee dc list'
+  route_name: entity.mentee_d_c.collection
+  description: 'List Mentee dc entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentee_d_c.admin.structure.settings:
+  title: 'Mentee dc settings'
+  description: 'Configure Mentee dc entities'
+  route_name: mentee_d_c.settings
+  parent: system.admin_structure
+
+# Mentor dc menu items definition
+entity.mentor_d_c.collection:
+  title: 'Mentor dc list'
+  route_name: entity.mentor_d_c.collection
+  description: 'List Mentor dc entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentor_d_c.admin.structure.settings:
+  title: 'Mentor dc settings'
+  description: 'Configure Mentor dc entities'
+  route_name: mentor_d_c.settings
+  parent: system.admin_structure
