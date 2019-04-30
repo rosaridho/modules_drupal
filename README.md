@@ -4,3 +4,5 @@ To Do List :
 
 - Investigate debugging index.php GADA
 - Continue Drupalize.me tutorial
+- Learn Redis
+- Learn GraphQL
