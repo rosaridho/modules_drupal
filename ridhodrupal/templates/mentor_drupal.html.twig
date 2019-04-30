@@ -1,0 +1,22 @@
+{#
+/**
+ * @file mentor_drupal.html.twig
+ * Default theme implementation to present Mentor drupal data.
+ *
+ * This template is used when viewing Mentor drupal pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_mentor_drupal()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('mentor_drupal') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

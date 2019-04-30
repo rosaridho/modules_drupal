@@ -1,0 +1,132 @@
+# Mentor drupal routing definition
+mentor_drupal.settings_tab:
+  route_name: mentor_drupal.settings
+  title: 'Settings'
+  base_route: mentor_drupal.settings
+
+entity.mentor_drupal.canonical:
+  route_name: entity.mentor_drupal.canonical
+  base_route: entity.mentor_drupal.canonical
+  title: 'View'
+
+entity.mentor_drupal.edit_form:
+  route_name: entity.mentor_drupal.edit_form
+  base_route: entity.mentor_drupal.canonical
+  title: 'Edit'
+
+entity.mentor_drupal.delete_form:
+  route_name:  entity.mentor_drupal.delete_form
+  base_route:  entity.mentor_drupal.canonical
+  title: Delete
+  weight: 10
+
+# Mentee drupal routing definition
+mentee_drupal.settings_tab:
+  route_name: mentee_drupal.settings
+  title: 'Settings'
+  base_route: mentee_drupal.settings
+
+entity.mentee_drupal.canonical:
+  route_name: entity.mentee_drupal.canonical
+  base_route: entity.mentee_drupal.canonical
+  title: 'View'
+
+entity.mentee_drupal.edit_form:
+  route_name: entity.mentee_drupal.edit_form
+  base_route: entity.mentee_drupal.canonical
+  title: 'Edit'
+
+entity.mentee_drupal.delete_form:
+  route_name:  entity.mentee_drupal.delete_form
+  base_route:  entity.mentee_drupal.canonical
+  title: Delete
+  weight: 10
+
+# Director drupal routing definition
+director_drupal.settings_tab:
+  route_name: director_drupal.settings
+  title: 'Settings'
+  base_route: director_drupal.settings
+
+entity.director_drupal.canonical:
+  route_name: entity.director_drupal.canonical
+  base_route: entity.director_drupal.canonical
+  title: 'View'
+
+entity.director_drupal.edit_form:
+  route_name: entity.director_drupal.edit_form
+  base_route: entity.director_drupal.canonical
+  title: 'Edit'
+
+entity.director_drupal.delete_form:
+  route_name:  entity.director_drupal.delete_form
+  base_route:  entity.director_drupal.canonical
+  title: Delete
+  weight: 10
+
+# Challenge drupal routing definition
+challenge_drupal.settings_tab:
+  route_name: challenge_drupal.settings
+  title: 'Settings'
+  base_route: challenge_drupal.settings
+
+entity.challenge_drupal.canonical:
+  route_name: entity.challenge_drupal.canonical
+  base_route: entity.challenge_drupal.canonical
+  title: 'View'
+
+entity.challenge_drupal.edit_form:
+  route_name: entity.challenge_drupal.edit_form
+  base_route: entity.challenge_drupal.canonical
+  title: 'Edit'
+
+entity.challenge_drupal.delete_form:
+  route_name:  entity.challenge_drupal.delete_form
+  base_route:  entity.challenge_drupal.canonical
+  title: Delete
+  weight: 10
+
+# Livecode drupal routing definition
+livecode_drupal.settings_tab:
+  route_name: livecode_drupal.settings
+  title: 'Settings'
+  base_route: livecode_drupal.settings
+
+entity.livecode_drupal.canonical:
+  route_name: entity.livecode_drupal.canonical
+  base_route: entity.livecode_drupal.canonical
+  title: 'View'
+
+entity.livecode_drupal.edit_form:
+  route_name: entity.livecode_drupal.edit_form
+  base_route: entity.livecode_drupal.canonical
+  title: 'Edit'
+
+entity.livecode_drupal.delete_form:
+  route_name:  entity.livecode_drupal.delete_form
+  base_route:  entity.livecode_drupal.canonical
+  title: Delete
+  weight: 10
+
+# Subject drupal routing definition
+subject_drupal.settings_tab:
+  route_name: subject_drupal.settings
+  title: 'Settings'
+  base_route: subject_drupal.settings
+
+entity.subject_drupal.canonical:
+  route_name: entity.subject_drupal.canonical
+  base_route: entity.subject_drupal.canonical
+  title: 'View'
+
+entity.subject_drupal.edit_form:
+  route_name: entity.subject_drupal.edit_form
+  base_route: entity.subject_drupal.canonical
+  title: 'Edit'
+
+entity.subject_drupal.delete_form:
+  route_name:  entity.subject_drupal.delete_form
+  base_route:  entity.subject_drupal.canonical
+  title: Delete
+  weight: 10
+

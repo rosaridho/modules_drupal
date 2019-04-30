@@ -1,0 +1,84 @@
+
+# Mentor drupal menu items definition
+entity.mentor_drupal.collection:
+  title: 'Mentor drupal list'
+  route_name: entity.mentor_drupal.collection
+  description: 'List Mentor drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentor_drupal.admin.structure.settings:
+  title: 'Mentor drupal settings'
+  description: 'Configure Mentor drupal entities'
+  route_name: mentor_drupal.settings
+  parent: system.admin_structure
+
+# Mentee drupal menu items definition
+entity.mentee_drupal.collection:
+  title: 'Mentee drupal list'
+  route_name: entity.mentee_drupal.collection
+  description: 'List Mentee drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentee_drupal.admin.structure.settings:
+  title: 'Mentee drupal settings'
+  description: 'Configure Mentee drupal entities'
+  route_name: mentee_drupal.settings
+  parent: system.admin_structure
+
+# Director drupal menu items definition
+entity.director_drupal.collection:
+  title: 'Director drupal list'
+  route_name: entity.director_drupal.collection
+  description: 'List Director drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+director_drupal.admin.structure.settings:
+  title: 'Director drupal settings'
+  description: 'Configure Director drupal entities'
+  route_name: director_drupal.settings
+  parent: system.admin_structure
+
+# Challenge drupal menu items definition
+entity.challenge_drupal.collection:
+  title: 'Challenge drupal list'
+  route_name: entity.challenge_drupal.collection
+  description: 'List Challenge drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+challenge_drupal.admin.structure.settings:
+  title: 'Challenge drupal settings'
+  description: 'Configure Challenge drupal entities'
+  route_name: challenge_drupal.settings
+  parent: system.admin_structure
+
+# Livecode drupal menu items definition
+entity.livecode_drupal.collection:
+  title: 'Livecode drupal list'
+  route_name: entity.livecode_drupal.collection
+  description: 'List Livecode drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+livecode_drupal.admin.structure.settings:
+  title: 'Livecode drupal settings'
+  description: 'Configure Livecode drupal entities'
+  route_name: livecode_drupal.settings
+  parent: system.admin_structure
+
+# Subject drupal menu items definition
+entity.subject_drupal.collection:
+  title: 'Subject drupal list'
+  route_name: entity.subject_drupal.collection
+  description: 'List Subject drupal entities'
+  parent: system.admin_structure
+  weight: 100
+
+subject_drupal.admin.structure.settings:
+  title: 'Subject drupal settings'
+  description: 'Configure Subject drupal entities'
+  route_name: subject_drupal.settings
+  parent: system.admin_structure

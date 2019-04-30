@@ -1,0 +1,30 @@
+entity.mentor_drupal.add_form:
+  route_name: entity.mentor_drupal.add_form
+  title: 'Add Mentor drupal'
+  appears_on:
+    - entity.mentor_drupal.collection
+entity.mentee_drupal.add_form:
+  route_name: entity.mentee_drupal.add_form
+  title: 'Add Mentee drupal'
+  appears_on:
+    - entity.mentee_drupal.collection
+entity.director_drupal.add_form:
+  route_name: entity.director_drupal.add_form
+  title: 'Add Director drupal'
+  appears_on:
+    - entity.director_drupal.collection
+entity.challenge_drupal.add_form:
+  route_name: entity.challenge_drupal.add_form
+  title: 'Add Challenge drupal'
+  appears_on:
+    - entity.challenge_drupal.collection
+entity.livecode_drupal.add_form:
+  route_name: entity.livecode_drupal.add_form
+  title: 'Add Livecode drupal'
+  appears_on:
+    - entity.livecode_drupal.collection
+entity.subject_drupal.add_form:
+  route_name: entity.subject_drupal.add_form
+  title: 'Add Subject drupal'
+  appears_on:
+    - entity.subject_drupal.collection

@@ -1,0 +1,22 @@
+{#
+/**
+ * @file director_drupal.html.twig
+ * Default theme implementation to present Director drupal data.
+ *
+ * This template is used when viewing Director drupal pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_director_drupal()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('director_drupal') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

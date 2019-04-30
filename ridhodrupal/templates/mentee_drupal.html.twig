@@ -1,0 +1,22 @@
+{#
+/**
+ * @file mentee_drupal.html.twig
+ * Default theme implementation to present Mentee drupal data.
+ *
+ * This template is used when viewing Mentee drupal pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_mentee_drupal()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('mentee_drupal') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

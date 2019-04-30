@@ -1,0 +1,114 @@
+add mentor drupal entities:
+  title: 'Create new Mentor drupal entities'
+
+administer mentor drupal entities:
+  title: 'Administer Mentor drupal entities'
+  description: 'Allow to access the administration form to configure Mentor drupal entities.'
+  restrict access: true
+
+delete mentor drupal entities:
+  title: 'Delete Mentor drupal entities'
+
+edit mentor drupal entities:
+  title: 'Edit Mentor drupal entities'
+
+view published mentor drupal entities:
+  title: 'View published Mentor drupal entities'
+
+view unpublished mentor drupal entities:
+  title: 'View unpublished Mentor drupal entities'
+add mentee drupal entities:
+  title: 'Create new Mentee drupal entities'
+
+administer mentee drupal entities:
+  title: 'Administer Mentee drupal entities'
+  description: 'Allow to access the administration form to configure Mentee drupal entities.'
+  restrict access: true
+
+delete mentee drupal entities:
+  title: 'Delete Mentee drupal entities'
+
+edit mentee drupal entities:
+  title: 'Edit Mentee drupal entities'
+
+view published mentee drupal entities:
+  title: 'View published Mentee drupal entities'
+
+view unpublished mentee drupal entities:
+  title: 'View unpublished Mentee drupal entities'
+add director drupal entities:
+  title: 'Create new Director drupal entities'
+
+administer director drupal entities:
+  title: 'Administer Director drupal entities'
+  description: 'Allow to access the administration form to configure Director drupal entities.'
+  restrict access: true
+
+delete director drupal entities:
+  title: 'Delete Director drupal entities'
+
+edit director drupal entities:
+  title: 'Edit Director drupal entities'
+
+view published director drupal entities:
+  title: 'View published Director drupal entities'
+
+view unpublished director drupal entities:
+  title: 'View unpublished Director drupal entities'
+add challenge drupal entities:
+  title: 'Create new Challenge drupal entities'
+
+administer challenge drupal entities:
+  title: 'Administer Challenge drupal entities'
+  description: 'Allow to access the administration form to configure Challenge drupal entities.'
+  restrict access: true
+
+delete challenge drupal entities:
+  title: 'Delete Challenge drupal entities'
+
+edit challenge drupal entities:
+  title: 'Edit Challenge drupal entities'
+
+view published challenge drupal entities:
+  title: 'View published Challenge drupal entities'
+
+view unpublished challenge drupal entities:
+  title: 'View unpublished Challenge drupal entities'
+add livecode drupal entities:
+  title: 'Create new Livecode drupal entities'
+
+administer livecode drupal entities:
+  title: 'Administer Livecode drupal entities'
+  description: 'Allow to access the administration form to configure Livecode drupal entities.'
+  restrict access: true
+
+delete livecode drupal entities:
+  title: 'Delete Livecode drupal entities'
+
+edit livecode drupal entities:
+  title: 'Edit Livecode drupal entities'
+
+view published livecode drupal entities:
+  title: 'View published Livecode drupal entities'
+
+view unpublished livecode drupal entities:
+  title: 'View unpublished Livecode drupal entities'
+add subject drupal entities:
+  title: 'Create new Subject drupal entities'
+
+administer subject drupal entities:
+  title: 'Administer Subject drupal entities'
+  description: 'Allow to access the administration form to configure Subject drupal entities.'
+  restrict access: true
+
+delete subject drupal entities:
+  title: 'Delete Subject drupal entities'
+
+edit subject drupal entities:
+  title: 'Edit Subject drupal entities'
+
+view published subject drupal entities:
+  title: 'View published Subject drupal entities'
+
+view unpublished subject drupal entities:
+  title: 'View unpublished Subject drupal entities'
