@@ -2,7 +2,5 @@
 
 To Do List :
 
-- Investigate debugging index.php GADA
+- Build Backend-Gada From scratch, Following the existing folder. Localhost
 - Continue Drupalize.me tutorial
-- Learn Redis
-- Learn GraphQL
