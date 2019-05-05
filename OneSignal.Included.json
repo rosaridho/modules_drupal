@@ -1,0 +1,880 @@
+{
+	"info": {
+		"_postman_id": "084ddfb8-8a07-41e0-b9ca-aeacd1b7725a",
+		"name": "Drupal1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Mentor Drupal",
+			"item": [
+				{
+					"name": "GetAllMentor",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetMentor",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f?",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f"
+							],
+							"query": [
+								{
+									"key": "user_id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddMentor",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"data\": {\n    \"type\": \"mentor_drupal--mentor_drupal\",\n    \"attributes\": {\n      \"name\": \"nay7\",\n      \"telephone\": \"0818222\",\n      \"subject\": \"nangis\"\n    },\n    \"relationships\": {\n      \"user_id\": {\n        \"data\": {\n          \"type\": \"user--user\",\n          \"id\": \"1aab944a-b252-48e9-840f-6aaf5c0e9a09\"\n        }\n      }\n    }\n  }\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteMentor",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/6e7147df-55f5-4460-9764-e527d96f7bd0",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"6e7147df-55f5-4460-9764-e527d96f7bd0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PatchMentor",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"data\": {\n    \"type\": \"mentor_drupal--mentor_drupal\",\n    \"id\": \"d4e72578-af9d-4614-b46d-1a83233f329f\",\n    \"attributes\": {\n      \"name\": \"MuhammadRidhoRosa\",\n      \"telephone\": \"08182228282\",\n      \"subject\": \"Control Systems Advance\"\n    },\n    \"relationships\": {\n      \"user_id\": {\n        \"data\": {\n          \"type\": \"user--user\",\n          \"id\": \"1aab944a-b252-48e9-840f-6aaf5c0e9a09\"\n        }\n      }\n    }\n  }\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetMentorUserId",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f/user_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f",
+								"user_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetMentorRelationUserId",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f/relationships/user_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f",
+								"relationships",
+								"user_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditMentorRelationUserId",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"data\": \n    { \"type\": \"user--user\", \"id\": \"d1db47f1-6dc5-49e1-926d-a201ce45110a\"}\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f/relationships/user_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f",
+								"relationships",
+								"user_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddMentorRelationUserId",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"data\": \n    { \"type\": \"user--user\", \"id\": \"1aab944a-b252-48e9-840f-6aaf5c0e9a09\"}\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f/relationships/user_id",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f",
+								"relationships",
+								"user_id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteMentorRelationUserId",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "UyyNC6q6k4",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/vnd.api+json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"data\": \n    { \"type\": \"user--user\", \"id\": \"d1db47f1-6dc5-49e1-926d-a201ce45110a\"}\n}"
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8888/jsonapi/mentor_drupal/mentor_drupal/d4e72578-af9d-4614-b46d-1a83233f329f/relationships/user_id?",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8888",
+							"path": [
+								"jsonapi",
+								"mentor_drupal",
+								"mentor_drupal",
+								"d4e72578-af9d-4614-b46d-1a83233f329f",
+								"relationships",
+								"user_id"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "oneSignal",
+			"item": [
+				{
+					"name": "viewApps",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+								"key": "Authorization",
+								"value": "Basic MzgyZjYzNDktZjVmNy00ZDM3LTlmYzQtMTIxMTFkZTc1MGY0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/apps",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"apps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ViewAnApp",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic MzgyZjYzNDktZjVmNy00ZDM3LTlmYzQtMTIxMTFkZTc1MGY0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/apps/921d9c54-239f-422a-933c-1e2cdac3bb5a",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"apps",
+								"921d9c54-239f-422a-933c-1e2cdac3bb5a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createNotification",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"app_id\": \"921d9c54-239f-422a-933c-1e2cdac3bb5a\",\n  \"included_segments\": [\"All\"],\n  \"data\": {\"foo\": \"bar\"},\n  \"contents\": {\"en\": \"Send to all subscribers\"}\n}"
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications?",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createNotification2",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"app_id\": \"921d9c54-239f-422a-933c-1e2cdac3bb5a\",\n  \"included_segments\": [\"Active Users\"],\n  \"data\": {\"foo\": \"bar\"},\n  \"contents\": {\"en\": \"Send to a specific segment \"}\n}"
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications?",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createNotification3",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"app_id\": \"921d9c54-239f-422a-933c-1e2cdac3bb5a\",\n   \"filters\": [\n  \t{\"field\": \"tag\", \"key\": \"level\", \"relation\": \"=\", \"value\": \"10\"}, \n  \t{\"operator\": \"OR\"}, {\"field\": \"amount_spent\", \"relation\": \">\", \"value\": \"0\"}\n  ],\n  \"data\": {\"foo\": \"bar\"},\n  \"contents\": {\"en\": \"Send based on filters/tags\"}\n}"
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications?",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createNotification4",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"app_id\": \"921d9c54-239f-422a-933c-1e2cdac3bb5a\",\n   \"include_player_ids\": [\"6392d91a-b206-4b7b-a620-cd68e32c3a76\",\"76ece62b-bcfe-468c-8a78-839aeaa8c5fa\",\"8e0f21fa-9a5a-4ae7-a9a6-ca1f24294b86\"],\n  \"data\": {\"foo\": \"bar\"},\n  \"contents\": {\"en\": \"Send based on OneSignal PlayerIds \"}\n}"
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications?",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createNotification5(EMAIL)(x)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"app_id\": \"921d9c54-239f-422a-933c-1e2cdac3bb5a\",\n   \"include_player_ids\": [\"6392d91a-b206-4b7b-a620-cd68e32c3a76\",\"76ece62b-bcfe-468c-8a78-839aeaa8c5fa\",\"8e0f21fa-9a5a-4ae7-a9a6-ca1f24294b86\"],\n  \"data\": {\"foo\": \"bar\"},\n  \"contents\": {\"en\": \"Send based on OneSignal PlayerIds \"}\n}"
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications?",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cancelNotification",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": " Basic Y2QzNzY4YmYtMGI0MC00OTg5LWE0MzAtM2Y4ODI4YTY0ZGY3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://onesignal.com/api/v1/notifications/86ff1143-caa5-4f99-9be0-a594f2fcdc22?app_id=921d9c54-239f-422a-933c-1e2cdac3bb5a",
+							"protocol": "https",
+							"host": [
+								"onesignal",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"notifications",
+								"86ff1143-caa5-4f99-9be0-a594f2fcdc22"
+							],
+							"query": [
+								{
+									"key": "app_id",
+									"value": "921d9c54-239f-422a-933c-1e2cdac3bb5a"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "findUsers",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "UyyNC6q6k4",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8888/jsonapi/user/user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8888",
+					"path": [
+						"jsonapi",
+						"user",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
